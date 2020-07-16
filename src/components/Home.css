@@ -1,0 +1,192 @@
+h1 {
+  color: aliceblue;
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  color: rgb(146, 146, 146);
+}
+
+.text-white {
+  color: rgba(255, 255, 255, 0.911);
+}
+
+.page-header {
+  /*background-color: rgb(0, 0, 0);*/
+  width: inherit;
+  margin: 0;
+  border: none;
+  padding: 0;
+  height: inherit;
+  /*opacity: 50%;*/
+
+  /*
+  background-image: url(../localAssets/YoutubeBanner.png);
+  background-position: center;
+  background-repeat: repeat;
+  background-size: 12em;
+  */
+}
+
+.page-header-img {
+  width: 100%;
+  margin: 0;
+  opacity: 80%;
+  border: none;
+  padding: 0;
+}
+
+.body-splitter {
+  width: 100%;
+  height: 20vh;
+}
+
+.body-splitter-lg {
+  height: 40vh;
+}
+
+.page-header-separator {
+  width: 100%;
+  height: 4em;
+}
+
+.page-holder-modules {
+  width: 100%;
+  overflow: visible;
+  position: relative;
+}
+
+.page-holder-full {
+  width: 100%;
+  background-color: rgb(22, 22, 22);
+  padding-top: 5em;
+  padding-bottom: 5em;
+  overflow: visible;
+  position: relative;
+  box-shadow: 0em 0em 4em -1em rgb(0, 0, 0);
+}
+
+.page-body {
+  background-color: grey;
+  border-style: dotted;
+  border-color: red;
+  position: relative;
+  top: -12vh;
+}
+
+.intro {
+  text-align: center;
+  background-color: rgb(10, 10, 10);
+  color: rgba(255, 255, 255, 0.911);
+  box-shadow: 0em 0em 4em -1em rgb(255, 255, 255);
+}
+
+.page-footer {
+  background-color: rgba(17, 17, 17, 0.973);
+  text-align: center;
+  height: auto;
+  top: 150em;
+  padding: 2em;
+}
+
+.welcome {
+  position: absolute;
+  height: 100%;
+  /* background-color: rgb(17, 17, 17); */
+}
+
+.welcome:hover {
+  background-color: rgba(141, 32, 32, 0);
+}
+
+.welcome-text {
+  text-align: center;
+}
+
+.person-wrapper {
+}
+
+.profile-pic {
+  width: 50%;
+  border-radius: 2em;
+}
+
+.btn-primary-flex {
+  text-align: center;
+}
+
+.btn-primary {
+  background-image: none;
+  border: none;
+  border-radius: 0;
+  background-color: #2892d7;
+}
+
+.btn-secondary-flex {
+  margin: auto;
+  padding: 2em;
+  display: block;
+  text-align: center;
+}
+
+.btn-secondary {
+  height: 3em;
+  width: 8em;
+
+  border-radius: 1em;
+  background-color: #2892d7;
+}
+
+.centered-flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.centered-text {
+  text-align: center;
+}
+
+.carousel-custom {
+  box-shadow: 0em 0em 3em 1em rgba(124, 124, 124, 0.74);
+}
+
+.carousel-img {
+  display: block;
+  height: 100%;
+  width: 100%;
+}
+
+.bar-top {
+}
+
+.social-media-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-media-logo {
+  margin: 0.5em;
+  height: 5em;
+  width: 5em;
+  border-radius: 3em;
+}
+
+.contact-container {
+  background-color: rgb(37, 37, 37);
+  height: 4em;
+}
+
+.body-splitter-parallax {
+  z-index: -1000;
+  height: 500px;
+  width: 100%;
+}
