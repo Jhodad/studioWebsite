@@ -11,7 +11,7 @@ export default class About extends Component {
           <Col xs={12} sm={8} smOffset={2}></Col>
           <Image src="assets/nc.jpg" className="about-profile-pic" />
           <h3>This is it!</h3>
-          <p> asdasdasd </p>
+          <p> prueba! </p>
           <p> asdasdasd </p>
           <p> asdasdasd </p>
           <p> asdasdasd </p>

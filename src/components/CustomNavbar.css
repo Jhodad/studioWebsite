@@ -30,7 +30,7 @@
   z-index: inherit;
 }
 
-.navbar-toggler-icon {
+.navbar-toggler-icon {  
   border-style: none;
   text-decoration: none;
 }
@@ -54,8 +54,8 @@
 }
 
 .brand-logo {
-  width: 10%;
-  border-radius: 40em;
+  width: 8%;
+  
   margin: 0.5em;
   position: fixed;
   z-index: 10000;

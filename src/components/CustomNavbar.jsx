@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import { Image, Navbar, Nav, NavDropdown } from "react-bootstrap";
 import "./CustomNavbar.css";
-import img_Home from "../localAssets/nc.jpg";
+import img_Home from "../localAssets/MS_APNG_STATIC_1024_60.png";
 
 export default class CustomNavbar extends Component {
   render() {

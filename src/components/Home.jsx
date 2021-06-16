@@ -14,6 +14,7 @@ import img_padoru5 from "../localAssets/padoru_Tsukuyo.jpg";
 import img_test from "../localAssets/Title Art Blue Hues Damaged Background.png";
 import bg_test from "../bg.jpg";
 
+
 export default class Home extends Component {
   render() {
     return (
@@ -50,55 +51,57 @@ export default class Home extends Component {
           </Container>
         </Container>
 
-        {/* Page Holder */}
+        <Container className="body-splitter"></Container>
 
-        <Container className="carousel-custom">
-          <Carousel>
-            <Carousel.Item>
-              <Image
-                className="carousel-img"
-                src={img_header}
-                alt="FIRST slide"
-              />
+        <Container fluid className="page-holder-modules">
+          <Container className="carousel-custom">
+            <Carousel>
+              <Carousel.Item>
+                <Image
+                  className="carousel-img"
+                  src={img_header}
+                  alt="FIRST slide"
+                />
 
-              <Carousel.Caption>
-                <h3>First slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
+                <Carousel.Caption>
+                  <h3>stuff for website</h3>
+                  <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
 
-            <Carousel.Item>
-              <Image
-                className="carousel-img"
-                src={img_header}
-                alt="SECOND slide"
-              />
+              <Carousel.Item>
+                <Image
+                  className="carousel-img"
+                  src={img_header}
+                  alt="SECOND slide"
+                />
 
-              <Carousel.Caption>
-                <h3>SECOND slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
+                <Carousel.Caption>
+                  <h3>stuff for digital design</h3>
+                  <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
 
-            <Carousel.Item>
-              <Image
-                className="carousel-img"
-                src={img_header}
-                alt="Third slide"
-              />
+              <Carousel.Item>
+                <Image
+                  className="carousel-img"
+                  src={img_header}
+                  alt="Third slide"
+                />
 
-              <Carousel.Caption>
-                <h3>THIRd slide label</h3>
-                <p>
-                  Nulla vitae elit libero, a pharetra augue mollis interdum.
-                </p>
-              </Carousel.Caption>
-            </Carousel.Item>
-          </Carousel>
+                <Carousel.Caption>
+                  <h3>sstuff for noise collision</h3>
+                  <p>
+                    Nulla vitae elit libero, a pharetra augue mollis interdum.
+                  </p>
+                </Carousel.Caption>
+              </Carousel.Item>
+            </Carousel>
+          </Container>
         </Container>
 
         <Container fluid className="body-splitter"></Container>
@@ -114,13 +117,13 @@ export default class Home extends Component {
 
             <Col xs={12} sm={4} className="person-wrapper">
               <Image src={img_padoru2} circle className="profile-pic" />
-              <h3>Padoru!</h3>
+              <h3>Padoru 2!</h3>
               <p>Text that goes blah blah!</p>
             </Col>
 
             <Col xs={12} sm={4} className="person-wrapper">
               <Image src={img_padoru3} circle className="profile-pic" />
-              <h3>Padoru!</h3>
+              <h3>Padoru 3!</h3>
               <p>Text that goes blah blah!</p>
             </Col>
           </Row>
